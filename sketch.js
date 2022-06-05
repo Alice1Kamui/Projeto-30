@@ -93,14 +93,10 @@ function draw() {
 
 }
 
-/*********** Escolha a função keyPressed() correta entre essas *************/
-
-
-
 
  function keyPressed() {
    if(keyCode === 32){
-     // crie um objeto arrow (flecha) e adicione a uma matriz ; defina seu ângulo igual ao ângulo do playerArcher (flecha do jogador)
+     
      var posX = playerArcher.body.position.x;
      var posY = playerArcher.body.position.y;
      var angle = playerArcher.body.angle+PI/2;
